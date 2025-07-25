@@ -1,0 +1,98 @@
+.container {
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1080px;
+}
+
+@media (max-width: 999px) {
+    .custom-css {
+        justify-content: center;
+    }
+    .box {
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+    flex-wrap: nowrap;
+}
+}
+
+@media (min-width: 1000px) {
+    .custom-css {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+.c-h1 {
+    font-size: 24px;
+}
+/* c means Custom */
+.c-p {
+   font-size: 14px;
+}
+
+.h1-caught-page {
+    font-weight: normal;
+    margin-top: 20px;  
+}
+
+.header-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.img {
+    max-width: 197px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: #EDEDED;
+}
+
+.img img {
+    max-width: 110px;
+    height: auto;
+    object-fit: cover;
+    /* border: 1px red solid; */
+}
+
+/* .box {
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+    flex-wrap: nowrap;
+} */
+
+.release-btn {
+    bottom: 8px;
+    right: 8px;
+    border-radius: 50px;
+    justify-self: end;
+    padding: 8px 20px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+
+.description {
+    max-height: 47px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+main div {
+    gap: 0px;
+}
